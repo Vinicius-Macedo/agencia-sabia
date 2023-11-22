@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- HTML Meta Tags -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- HTML Meta Tags -->
     <title>Sab.ia agência</title>
     <meta
       name="description"
@@ -12,42 +21,31 @@
     />
 
     <!-- Facebook Meta Tags -->
-    <!-- <meta
+    <meta
       property="og:url"
-      content="https://vinicius-macedo.github.io/nova-pagina/dist/"
+      content="https://vinicius-macedo.github.io/agencia-sabia/"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Seu Sucesso AI - Aumentando seu tempo" />
+    <meta property="og:title" content="Sab.ia agência" />
     <meta
       property="og:description"
       content="Tenha mais tempo e resultado, conteúdos poderosos gerados automaticamente por IA!"
     />
-    <meta
-      property="og:image"
-      content="https://vinicius-macedo.github.io/nova-pagina/dist/social-media-image.png"
-    /> -->
+    <meta property="og:image" content="/social-media-image.png" />
 
     <!-- Twitter Meta Tags -->
-    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="vinicius-macedo.github.io" />
     <meta
       property="twitter:url"
-      content="https://vinicius-macedo.github.io/nova-pagina/dist/"
+      content="https://vinicius-macedo.github.io/agencia-sabia/"
     />
-    <meta
-      name="twitter:title"
-      content="Seu Sucesso AI - Aumentando seu tempo"
-    />
+    <meta name="twitter:title" content="Sab.ia agência" />
     <meta
       name="twitter:description"
       content="Tenha mais tempo e resultado, conteúdos poderosos gerados automaticamente por IA!"
     />
-    <meta
-      name="twitter:image"
-      content="https://vinicius-macedo.github.io/nova-pagina/dist/social-media-image.png"
-    /> -->
-
-    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <meta name="twitter:image" content="/social-media-image.png" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,17 +56,8 @@
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
-    <!-- Google fonts -->
-
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0e122b" />
-    <meta name="msapplication-TileColor" content="#0e122b" />
-    <meta name="theme-color" content="#ffffff" /> -->
-    <script type="module" crossorigin src="./index-78dd4b95.js"></script>
-    <link rel="stylesheet" href="./index-c56f6533.css">
+    <script type="module" crossorigin src="./assets/index-c97eb666.js"></script>
+    <link rel="stylesheet" href="./assets/index-b2ba45d8.css">
   </head>
   <body>
     <header class="header">
@@ -86,13 +75,13 @@
         </a>
         <ul class="lista">
           <li class="item ml-auto">
-            <a href="#" class="link">AUTOMAÇÕES</a>
+            <a href="#automacoes" class="link">AUTOMAÇÕES</a>
           </li>
           <li class="item">
-            <a href="#" class="link">COMO FUNCIONA</a>
+            <a href="#como-funciona" class="link">COMO FUNCIONA</a>
           </li>
           <li class="item">
-            <a href="#" class="link">PREÇOS</a>
+            <a href="#precos" class="link">PREÇOS</a>
           </li>
           <li class="item flex gap-4 lg:ml-auto">
             <a
@@ -149,10 +138,10 @@
           <div>
             <h1 class="title">Liberte o potencial da sua agência</h1>
             <div>
-              <p class="font-bold text-center lg:text-left">
+              <p class="font-bold text-center lg:text-left text-[24px]">
                 Aumente sua produtividade em até 10X
               </p>
-              <p class="text-center lg:text-left">
+              <p class="text-center lg:text-left text-[22px]">
                 Reduza seu tempo e custos de criação!
               </p>
             </div>
@@ -192,7 +181,9 @@
               Configure e salve os dados dos seus clientes para ganhar tempo.
             </h2>
           </div>
-          <div class="flex flex-col  lg:flex-row md:gap-8 justify-between items-center">
+          <div
+            class="flex flex-col lg:flex-row md:gap-8 justify-between items-center"
+          >
             <div>
               <img
                 src="./internet-illustration.svg"
@@ -212,12 +203,14 @@
           </div>
         </div>
       </section>
-      <section class="default-layout flex flex-col gap-8">
+      <section id="como-funciona" class="default-layout flex flex-col gap-8">
         <h2 class="title title-center">Como funciona</h2>
         <div
           class="grid lg:grid-cols-4 justify-center lg:justify-between items-start gap-[30px]"
         >
-          <div class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center">
+          <div
+            class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center"
+          >
             <img src="./ilu-passo-1.png" alt="" srcset="" />
             <h3 class="text text-center font-bold my-4">
               Você tem um job para fazer
@@ -227,7 +220,9 @@
               fazer vendas, e precisa dedicar energia e tempo!
             </p>
           </div>
-          <div class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center">
+          <div
+            class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center"
+          >
             <img src="./ilu-passo-2.png" alt="" srcset="" />
             <h3 class="text text-center font-bold my-4">
               Você então escolhe uma das automações
@@ -237,7 +232,9 @@
               para sua necessidade. Basta escolher e preencher.
             </p>
           </div>
-          <div class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center">
+          <div
+            class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center"
+          >
             <img src="./ilu-passo-3.png" alt="" srcset="" />
             <h3 class="text text-center font-bold my-4">
               Sua atividade foi feita com sucesso!
@@ -247,7 +244,9 @@
               aprimorar para seu projeto.
             </p>
           </div>
-          <div class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center">
+          <div
+            class="w-full max-w-[600px] lg:max-w-[255px] flex flex-col items-center"
+          >
             <img src="./ilu-passo-4.png" alt="" srcset="" />
             <h3 class="text text-center font-bold mt-4">
               Não esqueça de salvar!
@@ -258,19 +257,25 @@
           </div>
         </div>
       </section>
-      <section class="bg-[#e0e0e0]">
-        <div class="default-layout flex justify-between items-center flex-col-reverse lg:flex-row">
+      <section id="automacoes" class="bg-[#e0e0e0]">
+        <div
+          class="default-layout flex justify-between items-center flex-col-reverse lg:flex-row"
+        >
           <div class="w-full max-w-[540px]">
             <h2 class="title">
               Otimização de conteúdo para diferentes redes e canais.
             </h2>
-            <div class="flex flex-wrap items-center justify-center lg:gap-4">
+            <div
+              class="flex flex-col lg:flex-row items-center justify-center lg:gap-2"
+            >
               <p class="text-[#4e5150] font-bold text-[80px]">+30</p>
-              <p class="text text-center font-bold">
+              <p class="text text-center lg:text-left font-bold">
                 Prompts configurados para automatizar processos.
               </p>
             </div>
-            <div class="mt-4 lg:mt-0 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4">
+            <div
+              class="mt-4 flex flex-wrap justify-center lg:mt-0 lg:grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4"
+            >
               <div
                 class="border border-solid rounded-full flex justify-center items-center gap-2 p-2 w-full max-w-[168px]"
               >
@@ -397,7 +402,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-green">
+      <section id="precos" class="bg-green">
         <div class="default-layout flex flex-col gap-8">
           <h2 class="title title-center text-white">Nossos Planos</h2>
           <div class="flex flex-wrap justify-center gap-[30px]">
@@ -817,7 +822,9 @@
               R$ 1.179
               <span class="text-[18px] font-medium leading-[-10px]">/mês </span>
             </h3>
-            <div class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0">
+            <div
+              class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0"
+            >
               <div class="text-check-container">
                 <svg
                   class="check-icon"
@@ -849,7 +856,9 @@
               R$ 1.990
               <span class="text-[18px] font-medium leading-[-10px]">/mês </span>
             </h3>
-            <div class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0">
+            <div
+              class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0"
+            >
               <div class="text-check-container">
                 <svg
                   class="check-icon"
@@ -881,7 +890,9 @@
               R$ 2.090
               <span class="text-[18px] font-medium leading-[-10px]">/mês </span>
             </h3>
-            <div class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0">
+            <div
+              class="grid sm:grid-cols-2 items-center gap-1 justify-center sm:gap-0"
+            >
               <div class="text-check-container">
                 <svg
                   class="check-icon"
@@ -907,21 +918,23 @@
         </div>
       </section>
     </main>
-    <footer
-      class="flex justify-center lg:justify-between default-layout py-small items-center flex-wrap gap-8"
-    >
-      <div class="flex flex-wrap justify-center gap-2 items-center">
-        <p class="text">Uma ferramenta</p>
-        <img class="w-[239px] h-auto" src="./estrategiando.png" alt="" />
+    <footer class="bg-[#fcfcfc]">
+      <div
+        class="flex justify-center lg:justify-between default-layout py-small items-center flex-wrap gap-8"
+      >
+        <div class="flex flex-wrap justify-center gap-2 items-center">
+          <p class="text">Uma ferramenta</p>
+          <img class="w-[239px] h-auto" src="./estrategiando.png" alt="" />
+        </div>
+        <img
+          class="object-contain"
+          src="./sabia-logo.svg.svg"
+          alt="Nosso logo simbolizando o 8 deitado ou infinito"
+          width="173"
+          height="36"
+        />
+        <p>Todos os direitos reservados. 2023.</p>
       </div>
-      <img
-        class="object-contain"
-        src="./sabia-logo.svg.svg"
-        alt="Nosso logo simbolizando o 8 deitado ou infinito"
-        width="173"
-        height="36"
-      />
-      <p>Todos os direitos reservados. 2023.</p>
     </footer>
   </body>
 </html>
